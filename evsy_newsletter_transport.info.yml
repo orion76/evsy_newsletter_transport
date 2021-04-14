@@ -1,0 +1,5 @@
+name: 'evsy_newsletter_transport'
+type: module
+description: 'Evsy Newsletter transport plugins'
+core: 8.x
+package: 'evsy'

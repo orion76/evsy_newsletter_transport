@@ -1,0 +1,13 @@
+{
+    "name": "orion76/evsy_newsletter_transport",
+    "type": "drupal-custom-module",
+    "description": "Evsy Newsletter transport plugins",
+    "keywords": [
+    ],
+    "homepage": "https://github.com/orion76/evsy_newsletter_transport",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/orion76/evsy_newsletter_transport/issues",
+        "source": "https://github.com/orion76/evsy_newsletter_transport"
+    }
+}

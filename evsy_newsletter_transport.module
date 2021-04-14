@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains evsy_newsletter_transport.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function evsy_newsletter_transport_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the evsy_newsletter_transport module.
+    case 'help.page.evsy_newsletter_transport':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Evsy Newsletter transport plugins') . '</p>';
+      return $output;
+
+    default:
+  }
+}
