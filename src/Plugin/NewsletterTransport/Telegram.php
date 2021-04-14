@@ -99,19 +99,19 @@ class Telegram extends NewsletterTransportPluginBase implements NewsletterTransp
             '#default_value' => $config['chat_id'],
         ];
 
-        $updates = $this->getTelegramApi()->getUpdates();
-
-
-        if (!empty($updates)) {
-            $elements['chat_id'] +=[
-                '#type' => 'select',
-                '#options' => $this->extractChatOptions($updates),
-            ];
-        } else {
+//        $updates = $this->getTelegramApi()->getUpdates();
+//
+//
+//        if (!empty($updates)) {
+//            $elements['chat_id'] +=[
+//                '#type' => 'select',
+//                '#options' => $this->extractChatOptions($updates),
+//            ];
+//        } else {
             $elements['chat_id'] +=[
                 '#type' => 'textfield',
             ];
-        }
+//        }
 
         return $elements;
     }
