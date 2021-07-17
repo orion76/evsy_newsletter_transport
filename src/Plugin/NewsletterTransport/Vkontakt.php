@@ -9,21 +9,21 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\evsy_newsletter\Plugin\NewsletterTransportPluginBase;
 use Drupal\evsy_newsletter\Plugin\NewsletterTransportPluginInterface;
-use Drupal\evsy_newsletter_transport\Service\telegram\TelegramConfig;
-use Drupal\evsy_newsletter_transport\Service\telegram\TelegramInterface;
-use Drupal\evsy_newsletter_transport\Service\telegram\TelegramServiceInterface;
+use Drupal\evsy_newsletter_transport\Service\TelegramConfig;
+use Drupal\evsy_newsletter_transport\Service\TelegramInterface;
+use Drupal\evsy_newsletter_transport\Service\TelegramServiceInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Telegram\Bot\Objects\Update;
 
 /**
- * Class DrupalLog
+ * Class Vkontakt
  *
  * @NewsletterTransport(
- *   id = "telegram",
- *   label = "Telegram"
+ *   id = "vkontakt",
+ *   label = "Vkontakt"
  * )
  */
-class Telegram extends NewsletterTransportPluginBase implements NewsletterTransportPluginInterface {
+class Vkontakt extends NewsletterTransportPluginBase implements NewsletterTransportPluginInterface {
 
     use StringTranslationTrait;
 

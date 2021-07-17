@@ -1,14 +1,9 @@
 services:
-  evsy_newsletter_transport.telegram:
-    class: Drupal\evsy_newsletter_transport\Service\TelegramService
-    parent: default_plugin_manager
-    arguments: [ '@evsy_newsletter_transport.telegram.logger_channel' ]
-
   evsy_newsletter_transport.telegram.logger_channel:
     class: Drupal\Core\Logger\LoggerChannel
     factory: logger.factory:get
     arguments: [ 'telegram' ]
 
   evsy_newsletter_transport.telegram.service:
-    class: Drupal\evsy_newsletter_transport\Service\TelegramService
+    class: Drupal\evsy_newsletter_transport\Service\telegram\TelegramService
     arguments: [ '@evsy_newsletter_transport.telegram.logger_channel' ]

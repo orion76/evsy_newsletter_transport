@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Drupal\evsy_newsletter_transport\Service;
+namespace Drupal\evsy_newsletter_transport\Service\telegram;
 
 
 interface TelegramConfigInterface {

@@ -1,8 +1,7 @@
 <?php
 
-namespace Drupal\evsy_newsletter_transport\Service;
+namespace Drupal\evsy_newsletter_transport\Service\telegram;
 
-use Drupal\Core\Config\Config;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Psr\Log\LoggerInterface;
 use Telegram\Bot\Api as TelegramApi;

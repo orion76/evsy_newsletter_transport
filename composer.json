@@ -1,13 +1,20 @@
 {
-    "name": "orion76/evsy_newsletter_transport",
-    "type": "drupal-custom-module",
-    "description": "Evsy Newsletter transport plugins",
-    "keywords": [
-    ],
-    "homepage": "https://github.com/orion76/evsy_newsletter_transport",
-    "minimum-stability": "dev",
-    "support": {
-        "issues": "https://github.com/orion76/evsy_newsletter_transport/issues",
-        "source": "https://github.com/orion76/evsy_newsletter_transport"
-    }
+  "name": "orion76/evsy_newsletter_transport",
+  "type": "drupal-custom-module",
+  "description": "Evsy Newsletter transport plugins",
+  "keywords": [
+  ],
+  "homepage": "https://github.com/orion76/evsy_newsletter_transport",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/orion76/evsy_newsletter_transport/issues",
+    "source": "https://github.com/orion76/evsy_newsletter_transport"
+  },
+  "repositories": {
+  },
+  "require": {
+    "drupal/core": "^8.8 || ^9",
+    "irazasyed/telegram-bot-sdk": "^3.4",
+    "vkcom/vk-php-sdk": "^5.80"
+  }
 }

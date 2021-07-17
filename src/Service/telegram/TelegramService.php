@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\evsy_newsletter_transport\Service;
+namespace Drupal\evsy_newsletter_transport\Service\telegram;
 
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Psr\Log\LoggerInterface;
