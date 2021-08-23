@@ -11,7 +11,7 @@ class TelegramConfig implements TelegramConfigInterface {
 
     const PARAM_CHAT_ID = 'chat_id';
 
-    const PARAM_PARSE_MODE = 'parse_mode';
+    const PARAM_PARSE_MODE = 'html';
 
 
     private $config = [];
